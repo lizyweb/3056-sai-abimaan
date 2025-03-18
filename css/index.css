@@ -1,0 +1,107 @@
+:root {
+    --brand: #fbac01;
+    --sub: #6ac754;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+.fplus-single-feature {
+    padding: 30px 30px 25px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0,.5);
+  }
+  
+  .feature-title {
+    margin-bottom: 25px;
+  }
+  
+  .feature-title  h4 {
+    margin-bottom: 0;
+    color: black;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    margin: 15px 0px;
+    font-size: 18px;
+  }
+  
+  /* .fplus-single-feature > p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: var(--body);
+  } */
+  
+  .fplus-single-feature:hover{
+    /* background: linear-gradient(to right,rgb(3,7,137),rgb(160,12,123)); */
+    background-color: var(--brand);
+    box-shadow: 5px 5px 10px rgb(251, 172, 1,.7);
+    
+  }
+  
+  .fplus-single-feature:hover h4 {
+      color: white;
+  }
+ 
+  
+  @media only screen and (min-width: 1400px) {
+    .fplus-single-feature {
+      height: 500px;
+    } 
+  }
+ /* brand-button */
+ .client_section .owl-carousel .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+  padding: 0 15px;
+}
+
+.client_section .owl-carousel .owl-nav .owl-prev,
+.client_section .owl-carousel .owl-nav .owl-next {
+width: max-content;
+height: max-content;
+background-color: var(--brand);
+color: #ffffff;
+outline: none;
+bottom: 0px;
+font-size: 24px;
+margin: 0 5px;
+border-radius: 20%;
+padding: 5px;
+/* border: 2px solid black; */
+box-shadow: 3px 3px 8px rgb(0, 0, 0,.7);
+}
+.client_section .owl-carousel .owl-nav .owl-prev:hover,
+.client_section .owl-carousel .owl-nav .owl-next:hover {
+  box-shadow: 5px 5px 10px rgb(0, 0, 0,.7);
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+.logo-slide img{
+  max-width: 150px;
+  max-height: 120px;
+  width: auto; 
+  height: auto;
+}
+
+/* .logo-page img{
+  max-width: 400px;
+  max-height: 250px;
+  width: auto; 
+  height: auto;
+  margin-top: 50px;
+} */
+
+.subheads h3{
+  text-align: center;
+  font-size: 40px;
+}
+
+.subheads h5{
+  font-size: 15px;
+}
